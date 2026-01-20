@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Fortune Cookie 🍪</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="toggle">
+        <button id="darkToggle">🌙</button>
+    </div>
+    <h1>Digital Fortune Cookie </h1>
+    <p>Choose your breakfast</p>
+    <select id="breakfast">
+        <option value="">--select --</option>
+        <option value="idli">Idli</option>
+        <option value="dosa">Dosa</option>
+        <option value="poha">Poha</option>
+        <option value="paratha">Paratha</option>  
+        <option value="cereal">Cereal</option>
+        <option value="pizza">Pizza</option>
+        <option value="nothing">Nothing</option>
+      </select>
+
+      <br>
+      <button id="openCookie">Open Cookie 🍪</button>
+      <div class ="cookie" id="cookie">🥠</div>
+      <div id="fortune"></div>
+      <audio id="crunch" src="https://cdn.jsdelivr.net/gh/jshawl/AudioFX@master/audio/pop.mp3" preload="auto"></audio>
+      <script src="script.js"></script>
+</body>
+</html>
